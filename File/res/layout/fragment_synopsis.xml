@@ -1,0 +1,198 @@
+<!-- res/layout/fragment_movie_synopsis.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- ImageView untuk menampilkan gambar sinopsis -->
+            <ImageView
+                android:id="@+id/Serigalasinopsis"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/serigala" />
+            <!-- Ganti dengan sumber gambar sesuai kebutuhan -->
+
+            <!-- TextView untuk menampilkan teks sinopsis -->
+            <TextView
+                android:id="@+id/sinopsisSerigala"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:text="@string/synopsis_serigala"
+                android:paddingTop="16dp"
+                android:maxLines="10"
+                android:ellipsize="end"
+                android:scrollbars="vertical" />
+            <!-- Tambahkan scrollbar jika diperlukan -->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- ImageView untuk menampilkan gambar sinopsis -->
+            <ImageView
+                android:id="@+id/Pertaruhansinopsis"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/pertaruhan" />
+            <!-- Ganti dengan sumber gambar sesuai kebutuhan -->
+
+            <!-- TextView untuk menampilkan teks sinopsis -->
+            <TextView
+                android:id="@+id/sinopsisPertaruhan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:text="@string/sinopsis_pertaruhan"
+                android:paddingTop="16dp"
+                android:maxLines="10"
+                android:ellipsize="end"
+                android:scrollbars="vertical" />
+            <!-- Tambahkan scrollbar jika diperlukan -->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- ImageView untuk menampilkan gambar sinopsis -->
+            <ImageView
+                android:id="@+id/Theraidsinopsis"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/theraid" />
+            <!-- Ganti dengan sumber gambar sesuai kebutuhan -->
+
+            <!-- TextView untuk menampilkan teks sinopsis -->
+            <TextView
+                android:id="@+id/sinopsisTheraid"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:text="@string/sinopsis_theraid"
+                android:paddingTop="16dp"
+                android:maxLines="10"
+                android:ellipsize="end"
+                android:scrollbars="vertical" />
+            <!-- Tambahkan scrollbar jika diperlukan -->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- ImageView untuk menampilkan gambar sinopsis -->
+            <ImageView
+                android:id="@+id/Bomsinopsis"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/bom" />
+            <!-- Ganti dengan sumber gambar sesuai kebutuhan -->
+
+            <!-- TextView untuk menampilkan teks sinopsis -->
+            <TextView
+                android:id="@+id/sinopsisBom"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:text="@string/sinopsis_bom"
+                android:paddingTop="16dp"
+                android:maxLines="10"
+                android:ellipsize="end"
+                android:scrollbars="vertical" />
+            <!-- Tambahkan scrollbar jika diperlukan -->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <!-- ImageView untuk menampilkan gambar sinopsis -->
+            <ImageView
+                android:id="@+id/Wirosinopsis"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/wiro" />
+            <!-- Ganti dengan sumber gambar sesuai kebutuhan -->
+
+            <!-- TextView untuk menampilkan teks sinopsis -->
+            <TextView
+                android:id="@+id/sinopsisWiro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="@android:color/white"
+                android:gravity="center"
+                android:text="@string/sinopsis_wiro"
+                android:paddingTop="16dp"
+                android:maxLines="10"
+                android:ellipsize="end"
+                android:scrollbars="vertical" />
+            <!-- Tambahkan scrollbar jika diperlukan -->
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
