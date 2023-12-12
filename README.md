@@ -28,6 +28,4 @@
 
 ## Hasil Tampilan
 
-<video width="320" height="240" controls>
-  <source src="gambar/hasil.mp4" type="video/mp4">
-</video>
+https://github.com/muhammadriyadussolihin/fragments_movie/assets/116700346/a0390b5d-e584-492c-992a-3b2d9b44f257
